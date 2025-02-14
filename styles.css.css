@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fffbe6;
+    font-family: 'Arial', sans-serif;
+}
+.firma 
+{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-style: italic;
+        font-size: 14px;
+       opacity: 0.7;
+}
+.girasol-container {
+    width: 200px;
+    height: 200px;
+    top: 360px;
+    left: -30px;
+   font-size: 35px;
+   text-align: center;
+   font-family:"indie flower";
+    animation: girasol-anim 5s infinite;
+}
+
+@keyframes girasol-anim {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+    0% { transform: rotate(-0deg); }
+    50% { transform: rotate(-10deg); }
+    100% { transform: rotate(-0deg); }
+}
+
+.mensaje {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mensaje h1 {
+    color: #ff69b4;
+}
